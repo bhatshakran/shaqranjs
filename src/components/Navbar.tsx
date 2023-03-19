@@ -10,8 +10,14 @@ const Navbar: React.FC = () => {
       </div>
 
       <ul className='lg:flex items-center hidden gap-16 text-base'>
-        <li>Github</li>
-        <li>LinkedIn</li>
+        <li>
+          <a href='https://github.com/bhatshakran'>Github</a>
+        </li>
+        <li>
+          <a href='https://www.linkedin.com/in/shaqran-bhat-2150121b7/'>
+            LinkedIn
+          </a>
+        </li>
       </ul>
 
       <div>
