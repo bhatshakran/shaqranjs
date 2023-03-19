@@ -3,7 +3,7 @@ import bannerimg from '../assets/portfo.png';
 
 const Banner: React.FC = () => {
   return (
-    <section className='mt-36 flex flex-col md:flex-row items-center justify-center md:justify-between px-8 lg:px-0 gap-y-6'>
+    <section className='mt-16 lg:mt-36 flex flex-col md:flex-row items-center justify-center md:justify-between px-8 lg:px-0 gap-y-6'>
       <div className=''>
         <h2 className=' hidden md:flex md:text-[40px]  lg:text-[48px] font-poppins font-bold text-primary max-w-[650px]  flex-col'>
           <span>Hello, I'm</span>
