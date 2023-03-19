@@ -20,7 +20,7 @@ const Banner: React.FC = () => {
 
         <div className='text-center md:text-left'>
           <a
-            href='https://drive.google.com/file/d/1IA7zgNCAEcJnzKmlc4NgJzfFb7D9y7mG/view?usp=share_link'
+            href='https://drive.google.com/file/d/1B-FOcP-kr493X8DSdGwdfHHkT0TdH-ie/view?usp=share_link'
             target='_blank'
             className='text-base font-poppins mt-4 inline-flex items-center gap-1'
           >
