@@ -16,7 +16,7 @@ const pockota = localFont({
 const inter = localFont({
 	src: [
 		{
-			path: "./fonts/inter/Inter-Regular.woff2",
+			path: "./fonts/Inter/Inter-Regular.woff2",
 			weight: "400",
 			style: "normal",
 		},
