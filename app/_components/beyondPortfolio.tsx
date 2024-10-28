@@ -81,14 +81,14 @@ export const BeyondPortfolio = () => {
 					<div className="relative z-30 space-y-3">
 						<div className="flex gap-4">
 							<Image
-								src={"/akram.jfif"}
+								src={"/akram.png"}
 								width={40}
 								height={40}
 								alt="aws"
 								className="rounded-full shadow shadow-black"
 							/>
 							<Image
-								src={"/traversy.jfif"}
+								src={"/traversy.png"}
 								width={40}
 								height={40}
 								alt="aws"
