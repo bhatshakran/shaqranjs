@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #020e13;
+  --primary-color:#ffffff;
+  --secondary-color:#091a21;
+  --teritiary-color:#06160A;
+  --gradient-end-color:#a7fceebd;
+  --gradient-start-color:#c6fca6;
+  --gradient-start-dark-color:#6d9456;
+  --bg-gradient-color:#06141e;
+}
+
+
+
+body {
+  @apply select-none font-inter bg-background text-primary-color  m-0 p-0;
+}
+
+.gradient-text{
+  @apply bg-gradient-to-br from-gradient-start-color to-gradient-end-color inline-block text-transparent bg-clip-text;
+}
+
+.gradient-bg{
+  @apply md:bg-gradient-to-br from-secondary-color from-50% to-gradient-start-color relative z-0;
+}
+
+.gradient-bg::after{
+  @apply absolute inset-0 bg-[url('/noise_texture.svg')] bg-cover bg-center bg-no-repeat z-10;
+  content:'';
+}
+
+
+.gradient-bg-without-noise{
+  @apply bg-gradient-to-r from-gradient-start-color from-10% to-gradient-end-color relative z-0;
+}

@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-BlackItalic.eot');
+    src: local('Pockota Black Italic'), local('Pockota-BlackItalic'),
+        url('Pockota-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-BlackItalic.woff2') format('woff2'),
+        url('Pockota-BlackItalic.woff') format('woff'),
+        url('Pockota-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-Black.eot');
+    src: local('Pockota Black'), local('Pockota-Black'),
+        url('Pockota-Black.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-Black.woff2') format('woff2'),
+        url('Pockota-Black.woff') format('woff'),
+        url('Pockota-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-Regular.eot');
+    src: local('Pockota'), local('Pockota-Regular'),
+        url('Pockota-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-Regular.woff2') format('woff2'),
+        url('Pockota-Regular.woff') format('woff'),
+        url('Pockota-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-BoldItalic.eot');
+    src: local('Pockota Bold Italic'), local('Pockota-BoldItalic'),
+        url('Pockota-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-BoldItalic.woff2') format('woff2'),
+        url('Pockota-BoldItalic.woff') format('woff'),
+        url('Pockota-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-LightItalic.eot');
+    src: local('Pockota Light Italic'), local('Pockota-LightItalic'),
+        url('Pockota-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-LightItalic.woff2') format('woff2'),
+        url('Pockota-LightItalic.woff') format('woff'),
+        url('Pockota-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota Extra';
+    src: url('Pockota-ExtraBold.eot');
+    src: local('Pockota Extra Bold'), local('Pockota-ExtraBold'),
+        url('Pockota-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-ExtraBold.woff2') format('woff2'),
+        url('Pockota-ExtraBold.woff') format('woff'),
+        url('Pockota-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota Extra';
+    src: url('Pockota-ExtraBoldItalic.eot');
+    src: local('Pockota Extra Bold Italic'), local('Pockota-ExtraBoldItalic'),
+        url('Pockota-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-ExtraBoldItalic.woff2') format('woff2'),
+        url('Pockota-ExtraBoldItalic.woff') format('woff'),
+        url('Pockota-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-Bold.eot');
+    src: local('Pockota Bold'), local('Pockota-Bold'),
+        url('Pockota-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-Bold.woff2') format('woff2'),
+        url('Pockota-Bold.woff') format('woff'),
+        url('Pockota-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-Medium.eot');
+    src: local('Pockota Medium'), local('Pockota-Medium'),
+        url('Pockota-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-Medium.woff2') format('woff2'),
+        url('Pockota-Medium.woff') format('woff'),
+        url('Pockota-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-MediumItalic.eot');
+    src: local('Pockota Medium Italic'), local('Pockota-MediumItalic'),
+        url('Pockota-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-MediumItalic.woff2') format('woff2'),
+        url('Pockota-MediumItalic.woff') format('woff'),
+        url('Pockota-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-Italic.eot');
+    src: local('Pockota Italic'), local('Pockota-Italic'),
+        url('Pockota-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-Italic.woff2') format('woff2'),
+        url('Pockota-Italic.woff') format('woff'),
+        url('Pockota-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url('Pockota-Light.eot');
+    src: local('Pockota Light'), local('Pockota-Light'),
+        url('Pockota-Light.eot?#iefix') format('embedded-opentype'),
+        url('Pockota-Light.woff2') format('woff2'),
+        url('Pockota-Light.woff') format('woff'),
+        url('Pockota-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
