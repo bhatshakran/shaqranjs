@@ -4,7 +4,7 @@ import { MoveUpRight } from "lucide-react";
 
 export const ExperiencesLogos = () => {
 	return (
-		<section className="w-full flex justify-center relative mt-8 bg-transparent">
+		<section className="w-full flex justify-center relative mt-8 bg-transparent md:pb-24">
 			<Image
 				src="/versai_logo.svg"
 				width={80}
@@ -32,7 +32,7 @@ export const ExperiencesLogos = () => {
 
 export const Banner = () => {
 	return (
-		<div className="w-full bg-center lg:h-screen gap-48 bg-no-repeat bg-cover flex flex-col items-center text-center bg-gradient-to-b from-secondary-color from-20% to-background md:bg-[url('/enhanced-vector.jpeg')] pt-3 md:pt-6 px-4">
+		<div className="w-full bg-center lg:min-h-screen gap-48 bg-no-repeat bg-cover flex flex-col items-center text-center bg-gradient-to-b from-secondary-color from-20% to-background md:bg-[url('/enhanced-vector.jpeg')] pt-3 md:pt-6 px-4">
 			<nav className="bg-white/20 px-3 py-2 border border-gray-500 rounded-full">
 				<ul className="flex gap-4 text-sm w-full">
 					<li className="cursor-pointer hover:text-teritiary-color">Home</li>
