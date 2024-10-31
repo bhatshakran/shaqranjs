@@ -4,7 +4,10 @@ import PersonaBadge from "./personaBadge";
 
 export const BeyondPortfolio = () => {
 	return (
-		<div id="beyond-pf" className="flex flex-col lg:flex-row mx-auto max-w-4xl gap-x-8 gap-y-20 px-4 lg:px-0 my-32">
+		<div
+			id="beyond-pf"
+			className="flex flex-col lg:flex-row mx-auto max-w-4xl gap-x-8 gap-y-20 px-4 lg:px-0 my-32"
+		>
 			<div className="w-full lg:w-1/3 space-y-3">
 				<div>
 					<h4 className="gradient-text font-inter font-semibold">
@@ -73,10 +76,34 @@ export const BeyondPortfolio = () => {
 						/>
 						<Image src={"/mongo.png"} width={40} height={40} alt="tech_stack" />
 						<Image src={"/redis.png"} width={40} height={40} alt="tech_stack" />
-						<Image src={"/terraform.png"} width={40} height={40} alt="tech_stack" className="bg-white rounded-xl scale-90 p-1" />
-						<Image src={"/gh.png"} width={40} height={40} alt="tech_stack" className="scale-125" />
-						<Image src={"/aws.jpg"} width={40} height={40} alt="tech_stack" className="rounded-xl scale-110 " />
-						<Image src={"/redux.png"} width={40} height={40} alt="tech_stack" className="bg-white rounded-full" />
+						<Image
+							src={"/terraform.png"}
+							width={40}
+							height={40}
+							alt="tech_stack"
+							className="bg-white rounded-xl scale-90 p-1"
+						/>
+						<Image
+							src={"/gh.png"}
+							width={40}
+							height={40}
+							alt="tech_stack"
+							className="scale-125"
+						/>
+						<Image
+							src={"/aws.jpg"}
+							width={40}
+							height={40}
+							alt="tech_stack"
+							className="rounded-xl scale-110"
+						/>
+						<Image
+							src={"/redux.png"}
+							width={40}
+							height={40}
+							alt="tech_stack"
+							className="bg-white rounded-full p-1"
+						/>
 					</div>
 				</Card>
 
