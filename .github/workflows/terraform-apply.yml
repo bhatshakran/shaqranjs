@@ -9,6 +9,9 @@ env:
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "terraform-github"
   CONFIG_DIRECTORY: "./terraform"
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  
 jobs:
   terraform:
     if: github.repository != 'hashicorp-education/terraform-github'

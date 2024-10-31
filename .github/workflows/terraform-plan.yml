@@ -4,9 +4,12 @@ on:
 
 env:
   TF_CLOUD_ORGANIZATION: "shaqs-org"
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "terraform-github"
   CONFIG_DIRECTORY: "./terraform"
+
 jobs:
   terraform:
     if: github.repository != 'hashicorp-education/terraform-github'
@@ -32,6 +35,8 @@ jobs:
         workspace: ${{ env.TF_WORKSPACE }}
         configuration_version: ${{ steps.plan-upload.outputs.configuration_version_id }}
         plan_only: true
+        AWS_ACCESS_KEY_ID: ${{ env.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ env.AWS_SECRET_ACCESS_KEY }}
     - name: Get Plan Output
       uses: hashicorp/tfc-workflows-github/actions/plan-output@v1.0.0
       id: plan-output
