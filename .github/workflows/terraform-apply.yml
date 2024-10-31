@@ -34,11 +34,10 @@ jobs:
             directory: ${{ env.CONFIG_DIRECTORY }}
         - name: Install Dependencies
           run: |
-            node --version
-            npm ci --production
+            pnpm i
       
         - name: Build Static Website
-          run: npm run build
+          run: pnpm run build
       
         - name: Copy files to the production website with the AWS CLI
           run: |
