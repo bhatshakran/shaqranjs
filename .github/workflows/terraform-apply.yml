@@ -9,8 +9,6 @@ env:
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "terraform-github"
   CONFIG_DIRECTORY: "./terraform"
-  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   
 jobs:
   terraform:
@@ -22,6 +20,13 @@ jobs:
     steps:
         - name: Checkout
           uses: actions/checkout@v3
+        - name: Install aws-vault
+          run: |
+            sudo apt-get install -y aws-vault
+        - name: Run Terraform with aws-vault
+          run: |
+            aws-vault exec shaq-dev -- terraform init
+            aws-vault exec shaq-dev -- terraform apply -auto-approve
         - name: Upload Configuration
           uses: hashicorp/tfc-workflows-github/actions/upload-configuration@v1.0.0
           id: apply-upload
