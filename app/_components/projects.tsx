@@ -2,7 +2,7 @@ import ProjectCard from "./projectCard";
 
 export const Projects = () => {
 	return (
-		<section className="w-full flex flex-col justify-center items-center mt-60 md:mt-64 px-4 lg:px-0">
+		<section id="projects" className="w-full flex flex-col justify-center items-center mt-60 md:mt-64 px-4 lg:px-0">
 			<h4 className="gradient-text font-inter font-semibold">CURATED WORK</h4>
 			<h1 className="text-3xl font-pockota mt-4">My Personal Projects</h1>
 			<div className="mt-24 space-y-12">

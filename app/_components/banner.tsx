@@ -33,19 +33,10 @@ export const ExperiencesLogos = () => {
 
 export const Banner = () => {
 	return (
-		<div className="w-full bg-center lg:min-h-screen gap-48 bg-no-repeat bg-cover flex flex-col items-center text-center bg-gradient-to-b from-secondary-color from-20% to-background md:bg-[url('/enhanced-vector.jpeg')] pt-3 md:pt-6 px-4">
-			<nav className="bg-white/20 px-3 py-2 border border-gray-500 rounded-full">
-				<ul className="flex gap-4 text-sm w-full">
-					<li className="cursor-pointer hover:text-teritiary-color">Home</li>
-					<li className="cursor-pointer hover:text-teritiary-color">
-						Experience
-					</li>
-					<li className="cursor-pointer hover:text-teritiary-color">
-						Projects
-					</li>
-					<li className="cursor-pointer hover:text-teritiary-color">Tools</li>
-				</ul>
-			</nav>
+		<div
+			id="banner"
+			className="w-full relative bg-center lg:min-h-screen gap-48 bg-no-repeat bg-cover flex flex-col items-center text-center bg-gradient-to-b from-secondary-color from-20% to-background md:bg-[url('/enhanced-vector.jpeg')] pt-44 md:pt-48 px-4"
+		>
 			<section className="space-y-3 md:space-y-6">
 				<div className="flex flex-col items-center text-sm">
 					<Image src="/avatar.svg" alt="avatar" width={60} height={60} />
@@ -74,7 +65,10 @@ export const Banner = () => {
 							👋🏻 Lets talk
 						</button>
 					</Link>
-					<Link href="https://personallinks.s3.ap-south-1.amazonaws.com/Shaqran's+Resume.pdf" target="blank">
+					<Link
+						href="https://personallinks.s3.ap-south-1.amazonaws.com/Shaqran's+Resume.pdf"
+						target="blank"
+					>
 						<button
 							type="button"
 							className="flex gap-2 items-center border border-gray-600 px-4 py-2 rounded-md"
