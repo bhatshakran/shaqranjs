@@ -34,10 +34,10 @@ jobs:
             directory: ${{ env.CONFIG_DIRECTORY }}
         - name: Install Dependencies
           run: |
-            pnpm i
+            npm i
       
         - name: Build Static Website
-          run: pnpm run build
+          run: npm run build
       
         - name: Copy files to the production website with the AWS CLI
           run: |
@@ -46,5 +46,5 @@ jobs:
         - name: Copy files to the production website with the AWS CLI
           run: |
             aws cloudfront create-invalidation \
-              --distribution-id ${{ env.DIST_ID }} \
+              --distribution-id ${{ secrets.DIST_ID }} \
               --paths "/*"
