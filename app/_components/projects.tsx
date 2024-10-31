@@ -14,6 +14,7 @@ export const Projects = () => {
 						"Built on reactjs and tailwindcss.",
 						"Integrated payment platforms like stripe and paypal.",
 					]}
+					link="https://ottelo.vercel.app/"
 				/>
 				<ProjectCard
 					title="Snowstore"
@@ -23,6 +24,7 @@ export const Projects = () => {
 						"Built on reactjs and tailwindcss.",
 						"Integrated payment platforms like stripe and paypal.",
 					]}
+					link="https://snowboard-store.vercel.app/"
 				/>
 				<ProjectCard
 					title="Chatter web"
@@ -32,6 +34,7 @@ export const Projects = () => {
 						"Built on reactjs and tailwindcss.",
 						"Integrated payment platforms like stripe and paypal.",
 					]}
+					link="https://chatterweb.netlify.app/"
 				/>
 				<ProjectCard
 					title="JD Design Agency"
@@ -41,6 +44,7 @@ export const Projects = () => {
 						"Built on reactjs and tailwindcss.",
 						"Integrated payment platforms like stripe and paypal.",
 					]}
+					link="https://designagency-lime.vercel.app/"
 				/>
 			</div>
 		</section>
