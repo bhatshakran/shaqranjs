@@ -4,7 +4,7 @@ import PersonaBadge from "./personaBadge";
 
 export const BeyondPortfolio = () => {
 	return (
-		<div className="flex flex-col lg:flex-row mx-auto max-w-4xl gap-x-8 gap-y-20 px-4 lg:px-0 my-32">
+		<div id="beyond-pf" className="flex flex-col lg:flex-row mx-auto max-w-4xl gap-x-8 gap-y-20 px-4 lg:px-0 my-32">
 			<div className="w-full lg:w-1/3 space-y-3">
 				<div>
 					<h4 className="gradient-text font-inter font-semibold">

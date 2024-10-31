@@ -3,7 +3,7 @@ import ExperienceCard from "./experienceCard";
 
 export const Experiences = () => {
 	return (
-		<section className="flex flex-col justify-center items-center mt-32 md:mt-32 px-4 lg:px-0 bg-[url('/ellipse.svg')] bg-cover bg-top w-full py-12 md:pt-60">
+		<section id="experience" className="flex flex-col justify-center items-center mt-32 md:mt-32 px-4 lg:px-0 bg-[url('/ellipse.svg')] bg-cover bg-top w-full py-12 md:pt-60">
 			<h4 className="gradient-text font-inter font-semibold">MY EXPERIENCES</h4>
 			<h1 className="text-3xl font-pockota mt-4">
 				Where I&apos;ve Been Employed
