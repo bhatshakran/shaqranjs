@@ -2,7 +2,7 @@ output "s3" {
   description = "S3 module outputs"
 
   value = {
-    bucket_id  = module.s3_bucket.s3_bucket_id
+    bucket_id = module.s3_bucket.s3_bucket_id
   }
 }
 
