@@ -7,7 +7,6 @@ import { Projects } from "./_components/projects";
 export default function Home() {
 	return (
 		<div className="flex flex-col w-full font-inter md:px-0 overflow-hidden">
-			This is the latest update
 			<Banner />
 			<Projects />
 			<SkillStrap />

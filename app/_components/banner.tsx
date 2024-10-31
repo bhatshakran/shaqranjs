@@ -1,6 +1,7 @@
 import Image from "next/image";
 import StarSvg from "./starSvg";
 import { MoveUpRight } from "lucide-react";
+import Link from "next/link";
 
 export const ExperiencesLogos = () => {
 	return (
@@ -65,18 +66,22 @@ export const Banner = () => {
 					robust back-end solutions.
 				</p>
 				<div className="flex gap-5 w-full justify-center items-center">
-					<button
-						type="button"
-						className="bg-primary-color text-secondary-color rounded-md px-4 py-2 font-semibold"
-					>
-						👋🏻 Lets talk
-					</button>
-					<button
-						type="button"
-						className="flex gap-2 items-center border border-gray-600 px-4 py-2 rounded-md"
-					>
-						Get my CV <MoveUpRight className="size-4" />
-					</button>
+					<Link href="mailto:bhatshakran@gmail.com">
+						<button
+							type="button"
+							className="bg-primary-color text-secondary-color rounded-md px-4 py-2 font-semibold"
+						>
+							👋🏻 Lets talk
+						</button>
+					</Link>
+					<Link href="https://personallinks.s3.ap-south-1.amazonaws.com/Shaqran's+Resume.pdf" target="blank">
+						<button
+							type="button"
+							className="flex gap-2 items-center border border-gray-600 px-4 py-2 rounded-md"
+						>
+							Get my CV <MoveUpRight className="size-4" />
+						</button>
+					</Link>
 				</div>
 			</section>
 			<ExperiencesLogos />

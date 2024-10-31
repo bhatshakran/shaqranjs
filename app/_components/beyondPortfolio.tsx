@@ -50,7 +50,7 @@ export const BeyondPortfolio = () => {
 					description="Developed key feature for embedding in-platform data widgets,
 					charts."
 				>
-					<div className="mt-8 flex justify-start gap-y-3 gap-x-2 flex-wrap">
+					<div className="mt-8 flex justify-start items-center gap-y-3 gap-x-2 flex-wrap">
 						<Image
 							src={"/nodejs.png"}
 							width={40}
@@ -73,6 +73,10 @@ export const BeyondPortfolio = () => {
 						/>
 						<Image src={"/mongo.png"} width={40} height={40} alt="tech_stack" />
 						<Image src={"/redis.png"} width={40} height={40} alt="tech_stack" />
+						<Image src={"/terraform.png"} width={40} height={40} alt="tech_stack" className="bg-white rounded-xl scale-90 p-1" />
+						<Image src={"/gh.png"} width={40} height={40} alt="tech_stack" className="scale-125" />
+						<Image src={"/aws.jpg"} width={40} height={40} alt="tech_stack" className="rounded-xl scale-110 " />
+						<Image src={"/redux.png"} width={40} height={40} alt="tech_stack" className="bg-white rounded-full" />
 					</div>
 				</Card>
 
