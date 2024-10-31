@@ -32,16 +32,20 @@ jobs:
           with:
             workspace: ${{ env.TF_WORKSPACE }}
             directory: ${{ env.CONFIG_DIRECTORY }}
-        - name: Create Apply Run
-          uses: hashicorp/tfc-workflows-github/actions/create-run@v1.0.0
-          id: apply-run
-          with:
-              workspace: ${{ env.TF_WORKSPACE }}
-              configuration_version: ${{ steps.apply-upload.outputs.configuration_version_id }}
-        - name: Apply
-          uses: hashicorp/tfc-workflows-github/actions/apply-run@v1.0.0
-          if: fromJSON(steps.apply-run.outputs.payload).data.attributes.actions.IsConfirmable
-          id: apply
-          with:
-                run: ${{ steps.apply-run.outputs.run_id }}
-                comment: "Apply Run from GitHub Actions CI ${{ github.sha }}"
+        - name: Install Dependencies
+          run: |
+            node --version
+            npm ci --production
+      
+        - name: Build Static Website
+          run: npm run build
+      
+        - name: Copy files to the production website with the AWS CLI
+          run: |
+            aws s3 sync --delete out/ s3://portfolio-bucket-shaqran
+      
+        - name: Copy files to the production website with the AWS CLI
+          run: |
+            aws cloudfront create-invalidation \
+              --distribution-id ${{ env.DIST_ID }} \
+              --paths "/*"
