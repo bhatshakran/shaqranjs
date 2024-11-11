@@ -36,3 +36,11 @@ body {
 .gradient-bg-without-noise{
   @apply bg-gradient-to-r from-gradient-start-color from-10% to-gradient-end-color relative z-0;
 }
+
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}

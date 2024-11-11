@@ -35,7 +35,7 @@ export const Banner = () => {
 	return (
 		<div
 			id="banner"
-			className="w-full relative bg-center lg:min-h-screen gap-48 bg-no-repeat bg-cover flex flex-col items-center text-center bg-gradient-to-b from-secondary-color from-20% to-background md:bg-[url('/enhanced-vector.jpeg')] pt-44 md:pt-48 px-4"
+			className="w-full relative bg-center h-auto gap-48 bg-no-repeat bg-cover flex flex-col items-center text-center bg-gradient-to-b from-secondary-color from-20% to-background md:bg-[url('/enhanced-vector.jpeg')] pt-44 md:pt-48 px-4"
 		>
 			<section className="space-y-3 md:space-y-6">
 				<div className="flex flex-col items-center text-sm">
@@ -66,7 +66,7 @@ export const Banner = () => {
 						</button>
 					</Link>
 					<Link
-						href="https://personallinks.s3.ap-south-1.amazonaws.com/Shaqran's+Resume.pdf"
+						href="https://ln5.sync.com/dl/fed06bce0#764uinr5-r2fspnp9-a3cvz9a9-iyamqnew"
 						target="blank"
 					>
 						<button

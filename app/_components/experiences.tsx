@@ -1,6 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import ExperienceCard from "./experienceCard";
 import * as experiences from "../utils/experiences.json";
+import Image from "next/image";
+import Link from "next/link";
 
 export const Experiences = () => {
 	return (
@@ -45,10 +47,59 @@ export const Experiences = () => {
 						Reach out to me for collabrations, inquiries or just to say hello
 					</p>
 				</div>
+
 				<button
 					type="button"
-					className="bg-secondary-color text-primary-color rounded-md px-4 py-2 font-semibold flex items-center gap-2"
+					className="bg-secondary-color text-primary-color rounded-md px-4 py-2 font-semibold flex items-center gap-2 relative has-tooltip"
 				>
+					<div
+						data-popover
+						id="popover-default"
+						role="tooltip"
+						className="bg-secondary-color rounded-xl p-3 flex flex-wrap w-20 gap-3 absolute -right-10 -top-60 transition-opacity duration-600 z-10 tooltip"
+					>
+						<Link href={"https://github.com/bhatshakran"} target="_blank">
+							<Image
+								src={"/gh.png"}
+								width={500}
+								height={500}
+								alt="gh"
+								className="size-12 hover:opacity-60"
+							/>
+						</Link>
+						<Link href={"mailto:bhatshakran@gmail.com"} target="_blank">
+							<Image
+								src={"/email.webp"}
+								width={500}
+								height={500}
+								alt="email"
+								className="size-12 scale-75 hover:opacity-60"
+							/>
+						</Link>
+						<Link href={"tel:9149659818"} target="_blank">
+							<Image
+								src={"/phone.webp"}
+								width={500}
+								height={500}
+								alt="phone"
+								className="size-12 scale-75 hover:opacity-60"
+							/>
+						</Link>
+						<Link
+							href={
+								"https://www.linkedin.com/in/shaqran-bhat-2150121b7/?_l=en_US"
+							}
+							target="_blank"
+						>
+							<Image
+								src={"/linkedin.png"}
+								width={500}
+								height={500}
+								alt="linkedin"
+								className="size-12 scale-95 hover:opacity-60"
+							/>
+						</Link>
+					</div>
 					Contact me <ArrowRight className="size-4" />
 				</button>
 			</div>
