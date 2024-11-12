@@ -10,9 +10,9 @@ export const Projects = () => {
 					title="Ottelo"
 					image="/proj_a.jpg"
 					results={[
-						"Beautiful store to get snowboards.",
-						"Built on reactjs and tailwindcss.",
-						"Integrated payment platforms like stripe and paypal.",
+						"A hotel booking website",
+						"Built using nextjs and tailwindcss.",
+						"You can search for top hotels and book them.",
 					]}
 					link="https://ottelo.vercel.app"
 				/>
@@ -21,7 +21,7 @@ export const Projects = () => {
 					image="/proj_b.jpg"
 					results={[
 						"Beautiful store to get snowboards.",
-						"Built on reactjs and tailwindcss.",
+						"Built on nextjs and tailwindcss.",
 						"Integrated payment platforms like stripe and paypal.",
 					]}
 					link="https://snowboard-store.vercel.app"
@@ -30,9 +30,9 @@ export const Projects = () => {
 					title="Chatter web"
 					image="/proj_c.jpg"
 					results={[
-						"Beautiful store to get snowboards.",
-						"Built on reactjs and tailwindcss.",
-						"Integrated payment platforms like stripe and paypal.",
+						"A platform to chat with your friends.",
+						"Built on reactjs, graphql and prisma.",
+						"Modern design and easy to use.",
 					]}
 					link="https://chatterweb.netlify.app"
 				/>
@@ -40,9 +40,8 @@ export const Projects = () => {
 					title="JD Design Agency"
 					image="/proj_d.jpg"
 					results={[
-						"Beautiful store to get snowboards.",
-						"Built on reactjs and tailwindcss.",
-						"Integrated payment platforms like stripe and paypal.",
+						"Website for a design agency",
+						"Built using nextjs and tailwindcss.",
 					]}
 					link="https://designagency-lime.vercel.app/"
 				/>
