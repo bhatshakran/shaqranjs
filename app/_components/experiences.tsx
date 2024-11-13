@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import ExperienceCard from "./experienceCard";
-import * as experiences from "../utils/experiences.json";
+import experiences from "../utils/experiences.json";
 import Image from "next/image";
 import Link from "next/link";
 
