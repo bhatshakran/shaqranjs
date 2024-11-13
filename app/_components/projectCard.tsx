@@ -12,7 +12,7 @@ interface Props {
 
 const ProjectCard = (props: Props) => {
 	return (
-		<div className="flex flex-col md:flex-row items-center md:items-end md:justify-between gap-12 rounded-xl gradient-bg shadow-sm overflow-hidden shadow-white/30 max-w-3xl relative">
+		<div className="flex flex-col md:flex-row items-start md:items-end md:justify-between gap-12 rounded-xl gradient-bg shadow-sm overflow-hidden shadow-white/30 max-w-3xl relative">
 			<Image
 				src={props.image}
 				width={2000}
