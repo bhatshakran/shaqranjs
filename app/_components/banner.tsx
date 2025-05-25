@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const ExperiencesLogos = () => {
   return (
-    <section className="w-full flex justify-center relative mt-8 bg-transparent md:pb-24">
+    <section className="w-full flex justify-center items-center relative mt-8 bg-transparent md:pb-24">
       <Image
         src="/versai_logo.svg"
         width={80}
@@ -21,11 +21,11 @@ export const ExperiencesLogos = () => {
         className="scale-75"
       />
       <Image
-        src="/zivaka_logo.svg"
-        width={80}
-        height={30}
-        alt="zivaka"
-        className="scale-75 -ml-2"
+        src="/oasis.png"
+        width={2000}
+        height={2000}
+        alt="oasis"
+        className="size-12 ml-3"
       />
     </section>
   );
@@ -66,7 +66,7 @@ export const Banner = () => {
             </button>
           </Link>
           <Link
-            href="https://drive.proton.me/urls/2AHFCZ9YW8#nZSDagRg34pE"
+            href="https://drive.proton.me/urls/YMNJBDC9F8#hP0IXqnJZa2g"
             target="blank"
           >
             <button
