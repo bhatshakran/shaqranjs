@@ -58,30 +58,12 @@ export const Experiences = () => {
             role="tooltip"
             className="bg-secondary-color rounded-xl p-3 flex flex-wrap w-20 gap-3 absolute -right-10 -top-60 transition-opacity duration-600 z-10 tooltip"
           >
-            <Link href={'https://github.com/bhatshakran'} target="_blank">
-              <Image
-                src={'/gh.png'}
-                width={500}
-                height={500}
-                alt="gh"
-                className="size-12 hover:opacity-60"
-              />
-            </Link>
-            <Link href={'mailto:bhatshakran@gmail.com'} target="_blank">
+            <Link href={'mailto:bhatshaqran@protonmail.com'} target="_blank">
               <Image
                 src={'/email.webp'}
                 width={500}
                 height={500}
                 alt="email"
-                className="size-12 scale-75 hover:opacity-60"
-              />
-            </Link>
-            <Link href={'tel:9149659818'} target="_blank">
-              <Image
-                src={'/phone.webp'}
-                width={500}
-                height={500}
-                alt="phone"
                 className="size-12 scale-75 hover:opacity-60"
               />
             </Link>
