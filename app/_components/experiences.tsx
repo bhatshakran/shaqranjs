@@ -56,7 +56,7 @@ export const Experiences = () => {
             data-popover
             id="popover-default"
             role="tooltip"
-            className="bg-secondary-color rounded-xl p-3 flex flex-wrap w-20 gap-3 absolute -right-10 -top-60 transition-opacity duration-600 z-10 tooltip"
+            className="bg-secondary-color rounded-xl p-3 flex flex-wrap w-20 gap-3 absolute -right-10 -top-32 transition-opacity duration-600 z-10 tooltip"
           >
             <Link href={'mailto:bhatshaqran@protonmail.com'} target="_blank">
               <Image
