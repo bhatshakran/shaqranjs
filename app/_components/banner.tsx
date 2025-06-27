@@ -66,7 +66,7 @@ export const Banner = () => {
             </button>
           </Link>
           <Link
-            href="https://drive.proton.me/urls/YMNJBDC9F8#hP0IXqnJZa2g"
+            href="https://drive.proton.me/urls/CSC2EN4GRM#9Rc4ceVFYUiD"
             target="blank"
           >
             <button
