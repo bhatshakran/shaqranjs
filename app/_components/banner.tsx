@@ -65,7 +65,7 @@ export const Banner = () => {
               👋🏻 Lets talk
             </button>
           </Link>
-          <Link
+          {/* <Link
             href="https://drive.proton.me/urls/CSC2EN4GRM#9Rc4ceVFYUiD"
             target="blank"
           >
@@ -75,7 +75,7 @@ export const Banner = () => {
             >
               Get my CV <MoveUpRight className="size-4" />
             </button>
-          </Link>
+          </Link> */}
         </div>
       </section>
       <ExperiencesLogos />
